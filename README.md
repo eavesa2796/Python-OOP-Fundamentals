@@ -17,20 +17,20 @@ This project practices Python object-oriented programming by building a `Student
 
 ## Main File
 
-The completed assignment is in `OOP_practice_2.py`.
+The completed assignment is in `OOP_practice.py`.
 
 ## How to Run
 
 From the project folder, run:
 
 ```powershell
-python OOP_practice_2.py
+python OOP_practice.py
 ```
 
 If you are using the included virtual environment on this machine, the script can also be run with:
 
 ```powershell
-.\.venv\Scripts\python.exe OOP_practice_2.py
+.\.venv\Scripts\python.exe OOP_practice.py
 ```
 
 ## Learning Goals
