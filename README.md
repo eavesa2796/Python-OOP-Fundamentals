@@ -1,41 +1,45 @@
-# Student Class Example (Python)
+# OOP Practice: Student Class Project
 
-## Overview
-This project demonstrates a simple Python `Student` class used to store and manage student information, including names, email addresses, and grades. The class provides methods to add grades, calculate averages, display student details, and return grades in different formats.
+This project practices Python object-oriented programming by building a `Student` class and using common data types such as lists, tuples, sets, and dictionaries.
 
-## Features
-- Store student name, email, and grades
-- Add new grades dynamically
-- Calculate the average grade
-- Display student information in a readable format
-- Convert grades from a list to a tuple
+## What the Project Includes
 
-## Code Structure
+- A `Student` class with attributes for `name`, `email`, and `grades`
+- Methods to add grades, calculate the average, display student information, and return grades as a tuple
+- Three student objects with different data
+- Dictionary lookup by email using `.get()`
+- A set of unique grades collected from all students
+- A tuple immutability demonstration using `try/except`
+- List operations using `.pop()`, indexing, and `len()`
+- Bonus features:
+  - Regular expression email validation
+  - Counting grades above 90
 
-### Student Class
-The `Student` class includes:
-- **Attributes**
-  - `name` (string): Student’s name
-  - `email` (string): Student’s email address
-  - `grades` (list): A list of integer grades
+## Main File
 
-- **Methods**
-  - `add_grade(grade)`: Adds a new grade to the student’s grade list
-  - `average_grade()`: Returns the average of all grades (returns 0 if no grades exist)
-  - `display_info()`: Prints the student’s name, email, and grades
-  - `grades_tuple()`: Returns the grades as a tuple
+The completed assignment is in `OOP_practice_2.py`.
 
-### Example Usage
-The script creates three student objects, adds additional grades to two of them, and displays their information.
+## How to Run
 
-```python
-student1 = Student("Alice", "alice@example.com", [85, 90, 78])
-student2 = Student("Bob","bob@example.com", [88, 92, 79])
-student3 = Student("Charlie", "charlie@example.com", [90, 85, 87])
+From the project folder, run:
 
-student1.add_grade(95)
-student2.add_grade(80)
+```powershell
+python OOP_practice_2.py
+```
 
-student1.display_info()
-student2.display_info()
-student3.display_info()
+If you are using the included virtual environment on this machine, the script can also be run with:
+
+```powershell
+.\.venv\Scripts\python.exe OOP_practice_2.py
+```
+
+## Learning Goals
+
+This project demonstrates:
+
+- Class creation and object instantiation
+- Instance methods and attributes
+- Working with lists, tuples, sets, and dictionaries
+- Safe dictionary access
+- Basic exception handling
+- Simple regular expression validation
